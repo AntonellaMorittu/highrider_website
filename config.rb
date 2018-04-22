@@ -1,11 +1,11 @@
 require 'extensions/build_cleaner'
+require 'middleman/rack'
 
 configure :build do
   activate :build_cleaner
   activate :directory_indexes
 end
 
-activate :livereload
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
   activate :livereload
