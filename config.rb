@@ -1,4 +1,6 @@
+require 'extensions/build_cleaner'
 
+activate :livereload
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
   activate :livereload
@@ -31,12 +33,15 @@ page '/*.txt', layout: false
 #     'Helping'
 #   end
 # end
-
-# Build-specific configuration
-# https://middlemanapp.com/advanced/configuration/#environment-specific-settings
-
 configure :build do
+  activate :build_cleaner
   activate :directory_indexes
   activate :minify_css
   activate :minify_javascript
+  activate :relative_assets
+end
+
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.deploy_method = :git
 end
