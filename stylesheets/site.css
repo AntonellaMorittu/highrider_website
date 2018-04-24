@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'digital-clock-font';
+  src: url("digital-7.regular.ttf"); }
+body {
+  background-color: black;
+  color: white;
+  padding: 18vh 1rem;
+  text-align: center; }
+
+a {
+  color: white; }
+  a:focus, a:hover {
+    color: red;
+    text-decoration: none; }
+
+p {
+  padding-top: 5%;
+  font-size: 40px;
+  font-family: 'digital-clock-font'; }
