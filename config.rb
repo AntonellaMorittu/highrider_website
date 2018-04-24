@@ -4,6 +4,7 @@ require 'middleman/rack'
 configure :build do
   activate :build_cleaner
   activate :directory_indexes
+  activate :asset_hash
 end
 
 activate :autoprefixer do |prefix|
