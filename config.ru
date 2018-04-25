@@ -1,7 +1,6 @@
 require "rack"
 require "rack/contrib/try_static"
 
-# Enable proper HEAD responses
 use Rack::Head
 
 # Add basic auth if configured
