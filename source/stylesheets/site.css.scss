@@ -8,6 +8,30 @@
   font-family: 'frizquadrata-bold-font';
 }
 
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  padding: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   background-color: black;
   color: white;
@@ -26,43 +50,80 @@ a {
 }
 
 p {
-  font-size: 40px;
-  font-family:'digital-clock-font';
-  padding-bottom: 30px;
+  text-align: justify;
+  padding: 50px 380px 50px 380px;
+  font-family: 'Khand', sans-serif;
+  font-size: 23px;
 }
 
-img {
-  padding: 5%;
+.welcome {
+  font-size: 40px;
+  font-family:'digital-clock-font';
+  padding: 55px;
 }
 
 .icon-left .img-highrider {
   max-width: 154px;
-
 }
 
-
 .navbar {
+  width: 100%;
   margin-top: 0;
   position: sticky;
   letter-spacing: 5px;
   font-family:'digital-clock-font';
-  font-size: 25px;
+  font-size: 15px;
   color: #232223;
   background-color: black;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: -4.5rem;
-    padding-left: 9.0rem;
+    padding-left: 10.5rem;
+}
+
+button .navbar-toggler {
+  color: white;
 }
 
 .btn {
   vertical-align: middle;
+  color: white;
+}
+
+h4 {
+  font-size: 40px;
+  font-family: 'Khand', sans-serif;
+  margin-top: 60px;
 }
 
 h5 {
-  margin-top: 100px;
-  font-family:'';
-  font-size:50px;
-  font-family: 'frizquadrata-bold-font';
+  font-size: 30px;
+  font-family: 'Khand', sans-serif;
 }
+
+h6 {
+  font-family: 'Khand', sans-serif;
+  font-size: 20px;
+}
+
+// .side {
+//     flex: 30%;
+//     background-color: black;
+//     padding: 20px;
+// }
+
+.main {
+  flex: 70%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0%;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 50%;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+ }
