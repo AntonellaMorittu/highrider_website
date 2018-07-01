@@ -61,7 +61,8 @@ a, .navbar-expand-lg .navbar-nav .nav-link {
 h4 {
   font-size: 40px;
   font-family: 'Khand', sans-serif;
-  margin-top: 60px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 h5 {
@@ -93,6 +94,7 @@ h6 {
   padding: 2px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
  }
 
  #news {
@@ -103,6 +105,18 @@ h6 {
   margin-left: auto;
 }
 
+#post-title{
+  padding: 17px 0;
+  width: 500px;
+  border: black;
+  border-bottom: 1px solid grey;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+
  @media only screen and (min-width: 992px) {
   #news {
     padding: 50px 365px 50px 365px;
@@ -112,5 +126,11 @@ h6 {
 @media only screen and (min-width: 992px) {
   .image {
     padding: 1%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #post-title {
+    width: 718px;
   }
 }
