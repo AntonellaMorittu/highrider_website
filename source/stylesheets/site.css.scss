@@ -75,12 +75,6 @@ h6 {
   font-size: 20px;
 }
 
-// .side {
-//     flex: 30%;
-//     background-color: black;
-//     padding: 20px;
-// }
-
 .main {
   flex: 70%;
   background-repeat: no-repeat;
@@ -97,7 +91,7 @@ h6 {
   margin-top: 40px;
  }
 
- #news {
+#news {
   padding: 50px 250px 50px 250px;
   text-align: justify;
   font-family: 'Khand', sans-serif;
@@ -105,10 +99,10 @@ h6 {
   margin-left: auto;
 }
 
-#post-title{
+#post-title {
+  font-size: 35px;
   padding: 17px 0;
   width: 500px;
-  border: black;
   border-bottom: 1px solid grey;
   margin-left: auto;
   margin-right: auto;
@@ -116,8 +110,37 @@ h6 {
   margin-top: 100px;
 }
 
+.show-year{
+  text-align: left;
+  padding: 17px 0 0 0;
+  width: 700px;
+  border-bottom: 1px solid grey;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
 
- @media only screen and (min-width: 992px) {
+table.ShowTable {
+  font-family: 'Khand', sans-serif;
+  font-size: 20px;
+  width: 700px;
+  background-color: #000000;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-bottom: 1px solid grey;
+  color: grey;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+table.ShowTable td {
+  border-width: 2px;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 992px) {
   #news {
     padding: 50px 365px 50px 365px;
   }
@@ -132,5 +155,11 @@ h6 {
 @media only screen and (min-width: 992px) {
   #post-title {
     width: 718px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+ .show-year, table.ShowTable {
+    width: 1200px;
   }
 }
