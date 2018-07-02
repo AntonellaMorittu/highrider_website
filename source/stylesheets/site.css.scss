@@ -22,11 +22,11 @@
     opacity: 0.5;
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-  }
+}
 
-  #album-cover:hover {
-    opacity: 1;
-  }
+#album-cover:hover {
+  opacity: 1;
+}
 
 body {
   background-color: black;
@@ -136,12 +136,10 @@ h6 {
 
 .show-year{
   text-align: left;
-  padding: 17px 0 0 0;
   width: 600px;
   border-bottom: 1px solid grey;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
 }
 
 table.ShowTable {
@@ -162,8 +160,6 @@ table.ShowTable td {
   border-bottom: 1px solid grey;
   padding: 5px;
 }
-
-
 
 @media only screen and (min-width: 992px) {
   #news {
