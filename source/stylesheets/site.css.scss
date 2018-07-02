@@ -34,6 +34,19 @@ a, .navbar-expand-lg .navbar-nav .nav-link {
   }
 }
 
+.footer {
+  font-family: 'Khand', sans-serif;
+  font-size: 20px;
+  height: 200px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color :black;
+  color: grey;
+  text-align: center;
+  padding: 70px 0;
+}
+
 .welcome {
   font-size: 40px;
   font-family:'digital-clock-font';
@@ -100,6 +113,7 @@ h6 {
 }
 
 #post-title {
+  color: grey;
   font-size: 35px;
   padding: 17px 0;
   width: 500px;
@@ -113,17 +127,17 @@ h6 {
 .show-year{
   text-align: left;
   padding: 17px 0 0 0;
-  width: 700px;
+  width: 600px;
   border-bottom: 1px solid grey;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 table.ShowTable {
   font-family: 'Khand', sans-serif;
   font-size: 20px;
-  width: 700px;
+  width: 600px;
   background-color: #000000;
   border-collapse: collapse;
   border-width: 2px;
@@ -138,6 +152,7 @@ table.ShowTable td {
   border-bottom: 1px solid grey;
   padding: 5px;
 }
+
 
 
 @media only screen and (min-width: 992px) {
@@ -160,6 +175,6 @@ table.ShowTable td {
 
 @media only screen and (min-width: 992px) {
  .show-year, table.ShowTable {
-    width: 1200px;
+    width: 1000px;
   }
 }
